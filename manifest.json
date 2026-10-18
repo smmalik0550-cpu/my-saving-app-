@@ -1,18 +1,20 @@
 {
- "name": "Family Savings Fund",
- "short_name": "Family Fund",
- "id": "./",
- "start_url": "./",
- "scope": "./",
- "display": "standalone",
- "orientation": "portrait",
- "background_color": "#14213D",
- "theme_color": "#14213D",
- "description": "Private family savings fund tracker.",
- "lang": "en",
- "icons": [
-  {"src": "launchericon-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
-  {"src": "launchericon-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
-  {"src": "launchericon-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
- ]
+  "name": "My Saving App",
+  "short_name": "SavingApp",
+  "start_url": "/my-saving-app-/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/my-saving-app-/launchericon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/my-saving-app-/launchericon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
