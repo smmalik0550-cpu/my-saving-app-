@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.familysavings.fund",
+        "sha256_cert_fingerprints": ["2B:58:F0:E0:59:4A:EE:46:D8:81:FF:F2:8D:A4:E4:39:FB:B0:C5:DE:86:56:F9:43:80:EE:B1:60:F2:22:1D:0A"]
+      }
+    }]
