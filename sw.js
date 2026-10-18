@@ -1,5 +1,5 @@
 self.addEventListener('install', e => {
-  e.waitUntil(caches.open('family-fund-v1').then(c => c.addAll(['./', './index.html'])));
+  e.waitUntil(caches.open('family-fund-v2').then(c => c.addAll(['./', './index.html'])));
   self.skipWaiting();
 });
 self.addEventListener('activate', e => e.waitUntil(self.clients.claim()));
