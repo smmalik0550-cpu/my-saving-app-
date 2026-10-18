@@ -7,7 +7,8 @@
   <meta name="theme-color" content="#1F3864" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-
+  <link rel="manifest" href="manifest.json">
+<script>if('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js');</script>
   <!-- SheetJS for real Excel .xlsx Import & Export -->
   <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
 
